@@ -14,9 +14,6 @@
   ],
   "author": "Adazzle",
   "license": "MIT",
-  "dependencies": {
-    "react-data-grid": "^2.0.76"
-  },
   "devDependencies": {
     "jquery": "^2.2.4",
     "lodash": "^4.17.4",

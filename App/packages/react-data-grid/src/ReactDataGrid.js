@@ -908,6 +908,7 @@ const ReactDataGrid = createReactClass({
   },
 
   render() {
+
     let cellMetaData = {
       rowKey: this.props.rowKey,
       selected: this.state.selected,

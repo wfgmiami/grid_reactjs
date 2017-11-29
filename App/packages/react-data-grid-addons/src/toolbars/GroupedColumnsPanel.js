@@ -32,6 +32,7 @@ class GroupedColumnsPanel extends Component {
   }
 
   renderGroupedColumns() {
+	  console.log('.........test')
     return this.props.groupBy.map(c => {
       const groupedColumnButtonProps = {
         columnKey: typeof c === 'string' ? c : c.key,
@@ -44,6 +45,7 @@ class GroupedColumnsPanel extends Component {
   }
 
   renderOverlay(color) {
+	
     return (
       <div style={{
         position: 'absolute',

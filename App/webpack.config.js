@@ -4,8 +4,8 @@ const path = require('path');
 module.exports = {
   devtool: 'source-map',
   entry: [
-	'babel-polyfill',
     'webpack-hot-middleware/client',
+    'babel-polyfill',
     path.join(__dirname, '/browser/react/index.js')
   ],
   output: {
@@ -15,7 +15,7 @@ module.exports = {
   },
   module: {
     loaders: [
-              { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
+              { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'},
               { test: /\.css$/, loader: 'style-loader!css-loader' }
     ]
   },
